@@ -1,5 +1,5 @@
 # Start Here
-Hi! Welcome to the Data Engineering 101 Pre-Enrollment course (we'll call it DE101 for short).
+Welcome to the Data Engineering 101 Pre-Enrollment course! We'll call it DE101 for short.
 
 ## Overview
 
@@ -37,4 +37,4 @@ Classmates and teachers are available to help you during live class hours. Of co
 
 ## Let's Get Started!
 
-Head to [week 1, episode 1](./ep1/README.md) to start learning the basics of the Python programming language.
+Head to the [week 1 README](./week_1/README.md) to start learning the basics of the Python programming language.
