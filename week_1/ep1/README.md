@@ -23,6 +23,7 @@ The Python tutorial we use today is adapted from the [Data Stack Academy 5 Day P
 
 ## Goals for Today
 - Start learning the very basics of Python
+- Get familiar with Colab
 
 
 
