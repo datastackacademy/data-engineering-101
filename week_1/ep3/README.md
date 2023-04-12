@@ -4,9 +4,17 @@ In today's lesson, we'll be practicing Git and GitHub. These are essential tools
 
 Git is an open source software used for version control. [GitHub](https://github.com/) is the industry standard for using Git to collaborate on development projects, and to store a portfolio of your own projects (projects on GitHub are called repositories, or repos). 
 
-When collaborating with a team, good communication can save you a lot of trouble. Scrum meetings are a great time for each person on a development team to say what they'll be working on that day, so people aren't simultaneously changing the same file. Writing useful commit messages will also help communicate your intentions to your peers.
+## Make a Profile
+If you don't already have a GitHub profile, let's make one now!
 
-If you're looking for some code inspiration, [explore public repositories by topic](https://github.com/topics), or follow your friends and see what kinds of projects they're making.
+Go to [https://github.com/](https://github.com/) and click 'Sign Up', then follow the prompts. 
+
+There are lots of ways to customize your settings, but a basic profile is fine for now.
+
+Take some time to click around on your new GitHub profile to explore the tabs.
+
+## Overview
+
 
 
 ## Key Terms
@@ -14,11 +22,15 @@ If you're looking for some code inspiration, [explore public repositories by top
 ### Remote Repositories and Local Repositories
 In the [course-overview section](https://github.com/datastackacademy/data-engineering-bootcamp/blob/main/getting-started/course-overview.md) you saw how to fork a copy of the remote data engineering bootcamp repo. You can think of a local repo as the version of a project you have on your own computer, where you can make changes to share later, and a remote repository as the one on GitHub, seen by everyone. 
 
+
 ### Forking and Cloning
 You can also create a local repo from a remote by cloning it. A forked repository is a completely independent copy, while a cloned one is sychronized with the remote.
 
 ### Pushing and Pulling
 Push changes from local -> remote. Pull changes remote -> local.
+
+### Commit Messages
+'Committing' will create a record of your changes in the project's version history. When you commit changes, include a short message of what you did and why. These messages show up in the version history too. Writing useful messages can save you a lot of trouble if you need to troubleshoot later.
 
 ### Branches, Pull Requests, and Merging
 On both the remote and local, the `main` branch is the official version of the project. Creating a branch makes a copy of the project where you can play around and make changes without affecting the `main` branch. 
