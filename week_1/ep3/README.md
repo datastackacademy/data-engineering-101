@@ -44,7 +44,7 @@ Git and GitHub can become quite complex, especially when you're collaborating wi
 This is the simplest way to use Git. The flow is:
 - Make changes to your files in VS Code.
 - Save the changes in VS Code.
-- In your terminal, use the command `git add <file_name>` to add each changed file to Git's staging area. If the file isn't in your terminal's present working directory, you'll also have to include the relative path.
+- In your terminal, use the command `git add <file_name>` to add each changed file to Git's staging area. If the file isn't in your terminal's present working directory, you'll also have to include the relative path. Do NOT add files with `git add *`, which can accidentally include files that ought to be excluded.
 > The command `git status` will show you what files have been changed since the last commit.
 - `git commit -m "<commit_message>"` will commit the changes to the project's history. What was changed, when it was committed, and the commit message all become part of the project's record. You can look at the commit history using Git or GitHub.
 
@@ -63,25 +63,17 @@ Give your branch a name that describes the way that branch is different from `ma
 - Push the changes from a local branch to a remote branch. Using `git push <remote_name> <branch_name>` will create a branch on GitHub with the same name as the local branch you're on, if one doesn't already exist.
 - When you want to add the changes on your branch to the main version of the project, open a pull request. We'll look at this in more detail below. When you're working with others, a pull request lets your peers look at the changes and make suggestions before pulling them into `main`.
 
-## The .gitignore File
 
-There will often be files or directories in your local repository that you don't want to include in the remote, like data, secret keys, configuration files, or virtual environments. Files and directories that should be ignored by Git can be added to a file called `.gitignore` in the main directory of your local repo. Each line in the `.gitignore` is a pattern for the types of files or directories that should be excluded from Git. For instance, `*.csv` will exclude all CSV files, and `venv/` will exclude the virtual environment. For more info on `.gitignore` and how to use patterns to indicate types of files, [read the docs](https://git-scm.com/docs/gitignore). Also, check out the [`.gitignore` file for the data-engineering-bootcamp repository](https://github.com/datastackacademy/data-engineering-bootcamp/blob/main/.gitignore) for a thorough example. For most of the projects in this bootcamp, your `.gitignore` will only need to include your virtual environment and data files.
-
-It's best practice, when adding files to be committed, to use
-```bash
-git add <FILE_NAMES>
-```
-...listing each file. Do NOT add files with `git add *`, which can accidentally include files that ought to be excluded.
-
-## Exercise: Project Setup
-Every week, you'll use GitHub to share a repository for your code review project. Nearly all of these will include
-- A `requirements.txt` file: you've already seen and used these in this course! It's just a list of the packages that the project in the repository needs to install before it can run. If you include a `requirements.txt` file your user can just run
+## Project Setup
+Every week, you'll use GitHub to share a repository for your code review project. Nearly all of these will include:
+- A `requirements.txt` file: It's just a list of the packages that the project in the repository needs to install before it can run. If you include a `requirements.txt` file your user can just run
 `pip install -r requirements.txt`
 then start running the code in the repo.
-- A `README.md` file: you've already seen this, too! It's what shows up on the main page of a GitHub repo. In the Data Stack Academy repository, we use the README to orient you to the content of the each episode. For your code review projects, you'll usually want to include a description of the project, a list of the technologies used, a list of the known bugs, and a diagram of how the pieces in your project fit together.
-- A `.gitignore` file: this is discussed above. If you like, you can find a thorough boilerplate `.gitignore` and use the same one every time.
+- A `README.md` file: you're in one now! It's what shows up on the main page of a GitHub repo. In the Data Stack Academy repository, we use the README to orient you to the content of the each episode. For your code review projects, you'll usually want to include a description of the project, a list of the technologies used, a list of the known bugs, and a diagram of how the pieces in your project fit together.
+- A `.gitignore` file: there will often be files or directories in your local repository that you don't want to include in the remote, like data, secret keys, configuration files, or virtual environments. Files and directories that should be ignored by Git can be added to a file called `.gitignore` in the main directory of your local repo. Each line in the `.gitignore` is a pattern for the types of files or directories that should be excluded from Git. For instance, `*.csv` will exclude all CSV files, and `venv/` will exclude the virtual environment. For more info on `.gitignore` and how to use patterns to indicate types of files, [read the docs](https://git-scm.com/docs/gitignore). Also, check out the [`.gitignore` file for the data-engineering-bootcamp repository](https://github.com/datastackacademy/data-engineering-bootcamp/blob/main/.gitignore) for a thorough example. For most of the projects in this bootcamp, your `.gitignore` will only need to include your virtual environment and data files. If you like, you can find a thorough boilerplate `.gitignore` and use the same one every time.
 
-This short exercise will just practice setting up a weekly code review repository. Start a new repo; you can call it whatever you want, and delete it later. Include:
+### Project Setup Practice
+This short exercise will just practice setting up a weekly code review repository. Start a new repo. You can call it whatever you want, and delete it later. Include:
 - A `REAME.md` with whatever you'd like
 - A `requirements.txt` file with `jupyterlab` version 3.3.2 (just like the one in this episode)
 - A `.gitignore` file that will ignore your Python virtual environment
