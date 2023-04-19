@@ -86,7 +86,7 @@ This short exercise will just practice setting up a weekly code review repositor
 We recommend the flow of:
 1. Making the repo and files locally
 2. Activating the virtual environment and installing requirements
-3. Initialize a Git Repository
+3. Initializing a Git Repository
 4. Writing, saving, and commiting changes to the local files
 5. Creating a remote repository on GitHub and pushing the local repository to it
 
@@ -200,6 +200,7 @@ In `trees.py`, make a list of trees:
 ```python
 trees = ["dogwood", "apple", "cedar"]
 ```
+
 Don't forget to save the file.
 Tell Git to track changes in this file, and commit what you have so far, including a commit message:
 ```bash
@@ -214,16 +215,19 @@ On your local, create a branch called `more-trees` and switch to it:
 ```bash
 git checkout -b more-trees
 ```
+
 In your `more-trees` branch, add a few of your favorite trees to your tree list, i.e.
 ```python
 # trees.py
 trees = ["dogwood", "apple", "cedar", "cyprus", "oak"]
 ```
+
 Just like we did above, add the changes and commit them:
 ```bash
 git add trees.py
 git commit -m "add a few more trees"
 ```
+
 Sync your local branch to a corresponding remote branch, and then push the changes branch to branch:
 ```bash
 git push -u origin more-trees
@@ -237,6 +241,7 @@ But wait! Now your remote `main` has changes that your local `main` doesn't. Swi
 git checkout main
 git pull origin main
 ```
+
 ...and we're back where we started: a local `main` that matches the remote `main`.
 
 Practice this flow a few more times:
