@@ -74,12 +74,24 @@ Give your branch a name that describes the way that branch is different from `ma
 Every week, you'll use GitHub to share a repository for your code review project. Nearly all of these will include:
 - A `requirements.txt` file: it's just a list of the packages that the project in the repository needs to install before it can run. If you include a `requirements.txt` file your user can just run
 `pip install -r requirements.txt`
-in the terminal, then start running the code in the repo.
+in the terminal with the virtual environment activated, then start running the code in the repo.
 - A `README.md` file: you're in one now! It's what shows up on the main page of a GitHub repo. In the Data Stack Academy repository, we use the README to orient you to the content of the each episode. For your code review projects, you'll usually want to include a description of the project, a list of the technologies used, a list of the known bugs, and a diagram of how the pieces in your project fit together.
 - A `.gitignore` file: there will often be files or directories in your local repository that you don't want to include in the remote, like data, secret keys, configuration files, or virtual environments. Files and directories that should be ignored by Git can be added to a file called `.gitignore` in the main directory of your local repo. Each line in the `.gitignore` is a pattern for the types of files or directories that should be excluded from Git. For instance, `*.csv` will exclude all CSV files, and `venv/` will exclude the virtual environment. For more info on `.gitignore` and how to use patterns to indicate types of files, [read the docs](https://git-scm.com/docs/gitignore). Also, check out the [`.gitignore` file for the data-engineering-bootcamp repository](https://github.com/datastackacademy/data-engineering-bootcamp/blob/main/.gitignore) for a thorough example. For most of the projects in this bootcamp, your `.gitignore` will only need to include your virtual environment and data files. If you like, you can find a thorough boilerplate `.gitignore` and use the same one every time.
 
-### Project Setup Practice
+</br>
+
+## Project Setup Practice
 This short exercise will just practice setting up a weekly code review repository. 
+
+We recommend the flow of:
+1. Making the repo and files locally
+2. Activating the virtual environment and installing requirements
+3. Writing, saving, and commiting changes to the local files
+4. Creating a remote repository on GitHub and pushing the local repository to it
+
+Steps 3 and 4 will be repeated for as long as you're working on the project. We'll look at all the steps in more detail below.
+
+### Step 1: Make the Repo and Files
 - Start a new repo in VS Code. You can call it whatever you want, and delete it later. Include:
 - A `REAME.md` with whatever you'd like
 - A `requirements.txt` file with `jupyterlab` version 3.3.2 (just like the one in this episode)
@@ -87,24 +99,49 @@ This short exercise will just practice setting up a weekly code review repositor
 - A `practice.ipynb` notebook file, with at least one markdown cell and one code cell. Put whatever you'd like in each of the cells
 - A `main.py` file, containing some Python code. In many Python repositories, the code is all contained in `.py` files, rather than notebooks. It's convention to name the file that ties all the other pieces of the project together `main.py`
 
-> We recommend practicing terminal commands. Here's the flow for making a new local project, adding files, committing changes, and then pushing it all to GitHub:
-- In the folder where you'll keep repositories, make a new directory and switch to it using
+> We recommend practicing terminal commands. Here are the the commands for making folders and files, and opening VS Code.
+- In the folder where you'll keep repositories, make a new directory and switch to it:
 ```
 mkdir <dir_name>
 cd <dir_name>
 ```
+
 - Initialize a new Git repository:
 ```
 git init
 ```
+
 - Create the files you want:
 ``` 
 touch <file_name> <file_name>
 ```
+
 - Open VS Code:
 ```
 code .
 ```
+
+### Step 2: Activate a Virtual Environment and Install Requirements
+In the lesson on setting up VS Code, we installed and tested Python's virtualenv, also called "venv". A virtual environment allows you to install specific requirements in an isolated environment, rather than on your main system, so you can use different versions of tools for each project. The `requirements.txt` file lets other developers recreate the same environment you used for the project, so the code runs as expected.
+
+- In the directory of your main project, create a virtual environment:
+```
+python3.7 -m venv venv
+```
+You only have to do this once per project. It creates a directory called `venv`. We tell `.gitignore` to exclude this from Git and GitHub, because other developers will make their own.
+
+- Activate the virtual environment:
+```
+source venv/bin/activate
+```
+You'll know it works because `(venv)` will appear in the terminal. Activate the virtual environment each time you open a project.
+
+- Install all the packages in the `requirements.txt` file:
+```
+pip install -r requirements.txt
+```
+You only have to install the requirements once. They'll be there each time you reactivate the virtual environment for that project.
+
 - Put whatever you want in the files, and save the changes.
 - Add the files the Git staging area:
 ``` 
@@ -119,6 +156,8 @@ Now you'll have to make a remote repository to push our local changes to. On you
 You'll be redirected. Follow the commands under the heading "…or push an existing repository from the command line".
 
 If you refresh the GitHub page, you'll see your new repository that reflects the files, commit messages, and branches you made on your local repository.
+
+</br>
 
 ## Exercise: Solo Project with Branches
 
@@ -180,6 +219,8 @@ git pull origin main
 
 Practice this flow a few more times:
 make local branch >> commit changes >> push to remote branch >> open pull request >> merge remote branch with remote main >> pull changes from remote main to local main
+
+</br>
 
 ## Other Useful Git Commands
 
