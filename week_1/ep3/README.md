@@ -86,8 +86,9 @@ This short exercise will just practice setting up a weekly code review repositor
 We recommend the flow of:
 1. Making the repo and files locally
 2. Activating the virtual environment and installing requirements
-3. Writing, saving, and commiting changes to the local files
-4. Creating a remote repository on GitHub and pushing the local repository to it
+3. Initialize a Git Repository
+4. Writing, saving, and commiting changes to the local files
+5. Creating a remote repository on GitHub and pushing the local repository to it
 
 Steps 3 and 4 will be repeated for as long as you're working on the project. We'll look at all the steps in more detail below.
 
@@ -104,11 +105,6 @@ Steps 3 and 4 will be repeated for as long as you're working on the project. We'
 ```
 mkdir <dir_name>
 cd <dir_name>
-```
-
-- Initialize a new Git repository:
-```
-git init
 ```
 
 - Create the files you want:
@@ -142,20 +138,34 @@ pip install -r requirements.txt
 ```
 You only have to install the requirements once. They'll be there each time you reactivate the virtual environment for that project.
 
+### Step 3: Iniitalize a Git Repository
+
+- Initialize a new Git repository, so you can version control the project:
+```
+git init
+```
+
+### Step 4: Make and Commit Changes in the Files
+
 - Put whatever you want in the files, and save the changes.
 - Add the files the Git staging area:
 ``` 
 git add <file_name> <file_name>
 ```
+
 - Commit the changes:
 ```
 git commit -m "<commit_message>"
 ```
+
+### Step 5: 
 Now you'll have to make a remote repository to push our local changes to. On your GitHub profile, in the "Repositories" tab, click the green "New" button. Give your new repository a name, then click the green "Create repository" button at the bottom.
 
 You'll be redirected. Follow the commands under the heading "…or push an existing repository from the command line".
 
 If you refresh the GitHub page, you'll see your new repository that reflects the files, commit messages, and branches you made on your local repository.
+
+Commit and push your local changes often. It'll make it easier to go back to earlier versions of the project, and will also save your work remotely even if your laptop crashes.
 
 </br>
 
