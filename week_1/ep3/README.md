@@ -171,19 +171,31 @@ Commit and push your local changes often. It'll make it easier to go back to ear
 
 ## Exercise: Solo Project with Branches
 
-You already know how to share your weekly code review projects on GitHub. Let's practice the same process, but with branches.
+Let's practice the same process, but with branches.
 
-Start a new project called "local-trees", initialize a Git repository, and open it in VS Code:
+Start a new project called "local-trees" and open it in VS Code:
 ```bash
 mkdir local-trees
 cd local-trees/
-git init
 code .
 ```
+
 Give it a file called `trees.py`:
 ```bash
 touch trees.py
 ```
+
+We won't install any requirements here, but let's activate a venv anyway, to get into the habit:
+```bash
+python3.7 -m venv venv
+source venv/bin/activate
+```
+
+Initialize a new Git repository:
+```
+git init
+```
+
 In `trees.py`, make a list of trees:
 ```python
 trees = ["dogwood", "apple", "cedar"]
