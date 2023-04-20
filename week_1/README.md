@@ -4,5 +4,5 @@ We'll start this week with Python, so you see how cool it is. Then we'll spend a
 
 1. [Python Basics Using Google Colab](ep1/)
 2. [Setting Up VSCode and Installing Requirements](ep2/)
-3. [Intro to Git and GitHub](ep3/)
-4. [Practicing Python, VSCode, and GitHub](ep4/)
+3. [Git, GitHub, and Project Setup](ep3/)
+4. [Putting It All Together, and the Student Handbook](ep4/)

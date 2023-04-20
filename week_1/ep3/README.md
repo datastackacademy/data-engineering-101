@@ -1,8 +1,10 @@
-# Git and GitHub
+# Git, GitHub, and Project Setup
 
-In today's lesson, we'll be practicing Git and GitHub. These are essential tools for version control, collaboration, and presenting your work. In bootcamp, you'll use Git and GitHub for your weekly code reviews and your team projects. You'll also probably use them in the rest of your data engineering career.
+In the first part of today's lesson, we'll be practicing Git and GitHub. These are essential tools for version control, collaboration, and presenting your work. In bootcamp, you'll use Git and GitHub for your weekly code reviews and your team projects. You'll also probably use them in the rest of your data engineering career.
 
 Git is an open source software used for version control. [GitHub](https://github.com/) is the industry standard for using Git to collaborate on development projects, and to store a portfolio of your own projects (projects on GitHub are called repositories, or repos). 
+
+We'll also go over general setup for the kinds of projects you'll have on GitHub. 
 
 ## Make a Profile
 If you don't already have a GitHub profile, make one now! Go to [https://github.com/](https://github.com/) and click 'Sign Up', then follow the prompts. 
@@ -77,6 +79,10 @@ Every week, you'll use GitHub to share a repository for your code review project
 in the terminal with the virtual environment activated, then start running the code in the repo.
 - A `README.md` file: you're in one now! It's what shows up on the main page of a GitHub repo. In the Data Stack Academy repository, we use the README to orient you to the content of the each episode. For your code review projects, you'll usually want to include a description of the project, a list of the technologies used, a list of the known bugs, and a diagram of how the pieces in your project fit together.
 - A `.gitignore` file: there will often be files or directories in your local repository that you don't want to include in the remote, like data, secret keys, configuration files, or virtual environments. Files and directories that should be ignored by Git can be added to a file called `.gitignore` in the main directory of your local repo. Each line in the `.gitignore` is a pattern for the types of files or directories that should be excluded from Git. For instance, `*.csv` will exclude all CSV files, and `venv/` will exclude the virtual environment. For more info on `.gitignore` and how to use patterns to indicate types of files, [read the docs](https://git-scm.com/docs/gitignore). Also, check out the [`.gitignore` file for the data-engineering-bootcamp repository](https://github.com/datastackacademy/data-engineering-bootcamp/blob/main/.gitignore) for a thorough example. For most of the projects in this bootcamp, your `.gitignore` will only need to include your virtual environment and data files. If you like, you can find a thorough boilerplate `.gitignore` and use the same one every time.
+
+The `.gitignore` has to be called `.gitignore` for Git to recognize it. Don't forget the `.`.
+
+You can see examples of these files in the [example_files](./example_files) folder of this episode. The `.gitignore` is from [GitHub's collection of gitignore templates](https://github.com/github/gitignore).
 
 </br>
 
