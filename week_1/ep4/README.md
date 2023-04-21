@@ -1,7 +1,7 @@
 # Putting It All Together, and the Student Handbook
 This week we've started learning Python, VS Code, and GitHub. Today, we'll pull it all together. It's a lot like what you'll do for the code review tomorrow.
 
-When you're done with the code and GitHub practice, take some time to read Data Stack Academy's 'Course Syllabus and Policies'. This will prepare you for the rules and rhythms of bootcamp. There'll be a short quiz on it as part of the tomorrow's code review.
+When you're done with the code and GitHub practice, take some time to read Data Stack Academy's ['Course Syllabus and Policies'](https://docs.google.com/document/d/1-k3e7yBTYhT00aO3yYzlBqNF37SpIKuF-swhT1kNxwk/edit?usp=sharing). This will prepare you for the rules and rhythms of bootcamp. There'll be a short quiz on it as part of the tomorrow's code review.
 
 ## Putting It All Together: Python, VS Code, and GitHub
 We're going to create a project for practicing this week's skills. 
