@@ -1,5 +1,5 @@
 # Python Built-in Data Types
-Last week, we looked at lists, strings, numbers, and dictionaries. These are the foundations of Python, so we'll practice them today. We'll also learn more about Python's built-in data types.
+Last week, we looked at lists, strings, numbers, and dictionaries. These are the foundations of Python, so we'll review and practice them today. We'll also learn more about Python's built-in data types.
 
 ## Built-in data types
 
@@ -29,8 +29,25 @@ This will uppercase our name variable. Members are functions. You'll learn more 
 
 You can always use the _Code Completion_ feature of VS Code to see a list of available members for a data type. Enter your variable name and a trailing dot `.` to start invoking its members, then press `CTRL` + `SPACE` to open the code completion window. You can scroll through the list of available members and choose the one you like to invoke.
 
+## Review and Practice
+In the `notebooks` folder of this episode, you'll find `01_strings.ipynb`, `02_lists.ipynb`, and `03_dictionaries.ipynb`. In order to run notebooks, you'll need to have Jupyter installed in the virtual environment for week_2/ep1. 
+.
+Remember from last week to:
 
-For details and practice with strings, lists, and dictionaries, work through notebooks `01_strings.ipynb`, `02_lists.ipynb`, and `03_dictionaries.ipynb`.
+- Create a Python virtual environment
+```
+python3.7 -m venv venv
+```
+
+- Activate it
+```
+source venv/bin/activate
+```
+
+- Install the requirements (make sure you're in week_2/ep1)
+```
+pip install -r requirements.txt
+```
 
 Once you're done with the notebooks, head to the `exercises` folder for more practice.
 
