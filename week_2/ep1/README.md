@@ -1,5 +1,5 @@
 # Python Built-in Data Types
-Last week, we looked at lists, strings, numbers, and dictionaries. These are the foundations of Python, so we'll review and practice them today. We'll also learn more about Python's built-in data types.
+Today, we'll review and practice the lists, strings, numbers, and dictionaries. We'll also learn about flow control, which is how we tell the code what order to run in.
 
 ## Built-in data types
 
@@ -49,6 +49,23 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Tuples and Sets
+There are two Python collection data types: tuples and sets. 
+
+Tuples are an ordered, unchangeable collection that allows duplicate members. They're a lot like lists; the main difference is that lists can be changed with methods like `pop()` and `append()`, while tuples cannot. 
+
+Sets are an unordered and unindexed collections that do not allow duplicates. They are less commonly used than lists or dicts but still serve an important role.
+
+Head to notebook '04_sets_and_tuples.ipynb' for more instruction and practice.
+
+## Collection summary
+Now you know all the basic types of Collections you will encounter in Python. These will serve as the building blocks for your future work in data engineering with Python. Let's give a quick summary of them so you know what collection to use when a project requires you to store multiple objects:
+- `list` - The simplicity and flexibility of `lists` means you will often use them whenever you simply need to store multiple values. As ordered collections, they are great for storing items sequentially, which also makes them great for iteration. They are not well suited to finding specific items inside them since there is no labeling on the values.
+- `dict` - These are great any time you want to store labeled values for future use, which happens often. They are often used to store configuration information because of this feature. They are also great for iterating over and allow you to check the label before performing certain actions as well. Additionally as of Python 3.7, the items can be iterated over in the order they were added, similar to a list.
+- `tuple` - an ordered, unchangeable set of values. Tuples will show up most often in return values from functions. Their more rigid structure is well suited to functions interacting with each other; if you expect a specific number of returned values, a `tuple` won't let you down.
+- `set` - probably the least frequently used collection type but they have utility when you want to keep unique values and/or check if an input is in a specific set of values. You won't use them often, but every once in a while, they'll be exactly what is needed.
+
+## Exercises
 Once you're done with the notebooks, head to the `exercises` folder for more practice.
 
 ## Goals for Today
