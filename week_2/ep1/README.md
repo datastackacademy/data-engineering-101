@@ -65,6 +65,11 @@ Now you know all the basic types of Collections you will encounter in Python. Th
 - `tuple` - an ordered, unchangeable set of values. Tuples will show up most often in return values from functions. Their more rigid structure is well suited to functions interacting with each other; if you expect a specific number of returned values, a `tuple` won't let you down.
 - `set` - probably the least frequently used collection type but they have utility when you want to keep unique values and/or check if an input is in a specific set of values. You won't use them often, but every once in a while, they'll be exactly what is needed.
 
+## Flow Controls
+In Python, 'flow control' means how the code is executed, based on a condition. Today, we're going to look 'for' loops, 'while' loops, and 'if' conditions. Please work through notebooks '05_for_loops.ipynb', '06_while_loops.ipynb', and '07_if_conditions.ipynb' before moving on.
+
+Once you're familiar with 'for' loops, 'while' loops, and 'if' conditions, go to notebook '08_flow_control_misc.ipynb' for more info about how flow controls can be used.
+
 ## Exercises
 Once you're done with the notebooks, head to the `exercises` folder for more practice.
 
