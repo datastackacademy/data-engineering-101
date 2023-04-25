@@ -66,7 +66,9 @@ dict1={1: 10, 2: 20}
 dict2={3: 30, 4: 40}
 dict3={5: 50, 6: 60}
 ```
-    Concatenate them into a new dictionary called `dict4`.
+    1) Concatenate them into a new dictionary called `dict4`
+    2) Print every key in `dict4`
+    2) Print every value in `dict4`
 
     
 
