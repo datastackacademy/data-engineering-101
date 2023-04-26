@@ -20,8 +20,6 @@ Today's code review will let you show off your understanding of Python basics: f
 - Push all your code to a new public repository on your GitHub called 'DE 101 Code Review 2'
 - Make at least three commits on the repository
 
-## Part 2: Bootcamp Policies
-
 
 ### Accepting Criteria
 In order for the code review to pass, it has to include:
