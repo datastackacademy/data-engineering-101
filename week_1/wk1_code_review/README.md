@@ -22,7 +22,7 @@ The project should be well-commented, without unused code.
     - A `.gitignore` file with whatever you want to exclude from Git
     - A `README.md` with at least a brief description of the project, instructions for setup, and a license
     - A  `requirements.txt` with jupyterlab at version 3.3.2
-    - A `main` file for your code. This can either be a Python file (`.py`) or a notebook (`.pynb)
+    - A `main` file for your code. This can either be a Python file (`.py`) or a notebook (`.pynb`)
 - In the file called `main`:
     - Make a list called `grab_bag` that contains a float, a string, and an integer
     - Make a dictionary called `puppies`. Give it three key-value pairs. The keys should be names as strings, and the values should be ages as integers
