@@ -17,7 +17,7 @@ Take some time to click around on your new GitHub profile to explore the tabs.
 ## Key Terms
 
 ### Remote Repositories and Local Repositories
-In the [course-overview section](https://github.com/datastackacademy/data-engineering-bootcamp/blob/main/getting-started/course-overview.md) you saw how to fork a copy of the remote data engineering bootcamp repo. You can think of a local repo as the version of a project you have on your own computer, where you can make changes to share later, and a remote repository as the one on GitHub, seen by everyone. 
+You can think of a local repo as the version of a project you have on your own computer, where you can make changes to share later, and a remote repository as the one on GitHub, seen by everyone. 
 
 ### Initializing a Repository
 This makes a unversioned project into a Git repository by creating a .git subdirectory. Run this command one time when you're setting up your project:
@@ -27,6 +27,7 @@ git init
 If you try to run a git command, like `git status`, and get the error message `fatal: not a git repository (or any of the parent directories): .git`, it's probably because you didn't `git init`.
 
 ### Forking and Cloning
+In the [course-overview section](https://github.com/datastackacademy/data-engineering-bootcamp/blob/main/getting-started/course-overview.md) you saw how to fork the remote Data Engineering Bootcamp repo, so you had your own remote copy of it.
 You can also create a local repo from a remote by cloning it. A forked repository is a completely independent copy, while a cloned one is sychronized with the remote.
 
 ### Pushing and Pulling

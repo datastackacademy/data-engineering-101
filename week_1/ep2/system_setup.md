@@ -37,7 +37,7 @@ Windows Subsystem for Linux (**WSL**) allows Windows users to run Ubuntu Linux n
 
 Follow the instructions for [Windows Subsystem for Linux (WSL) setup](windows-setup.md). After WSL installation, return here and continue the next steps on this guide.
 
-**NOTE:** As Windows users, you will install Python on your Ubuntu WSL machine; and **NOT** your native Windows machine. You're welcome to install these on Windows as well (specially Python); but they must run on WSL.
+**NOTE:** As Windows users, you will install Python on your Ubuntu WSL machine, and **NOT** your native Windows machine. You're welcome to install these on Windows as well (specially Python), but they must run on WSL.
 
 <br/><br/>
 
@@ -49,7 +49,7 @@ This section is for **Mac OS users ONLY**.
 
 The default command terminal on Mac OS uses **Z Shell**. Our course is built on a slightly different terminal called **Bash Shell**. Bash is default terminal of Linux based systems which is the ancestor of Mac OS. Mac OS has bash already installed but we must configure it to be the default terminal. 
 
-To change your default command terminal to Bash, run:
+To change your default command terminal to Bash:
 
 1. Open a new command terminal window
 2. Run
@@ -164,7 +164,7 @@ This renders the markdown file as **HTML** which is a lot easier to read and fol
 
 <br/>
 
-**NOTE**: WSL users must install python under their WSL Ubuntu terminal. Follow the Ubuntu instructions below. You can additionally install on Windows itself if you prefer to have both.
+**NOTE**: WSL users must install Python under their WSL Ubuntu terminal. Follow the Ubuntu instructions below. You can additionally install on Windows itself if you prefer to have both.
 
 <br/>
 
@@ -284,7 +284,7 @@ Now, you can use the File menu to open any `ipynb` notebooks in your project. Fo
 
 ## Install Docker
 
-Docker is a containerization tool. It enables various software such as Databases and Big Data applications to run on your machine (as containers) without going through complex installation processes. Docker is also one of the main technologies used behind the scenes to build Cloud services. We won't be using Docker in DE101, but you'll need it for bootcamp.
+Docker is a containerization tool. It enables various software such as databases and big data applications to run on your machine (as containers) without going through complex installation processes. Docker is also one of the main technologies used behind the scenes to build Cloud services. We won't be using Docker in DE101, but you'll need it for bootcamp.
 
 <br/>
 
@@ -340,11 +340,11 @@ If you want a more up to date version, you can also install it via a binary inst
 
 ## Getting Started Test
 
-This section checks to see if you have successfully finished setting up your environment. If everything is working correctly, you should be able finish this section without any issues. **Please** check with your instructor if you have any issues. 
+This section checks to see if you have successfully finished setting up your environment. If everything is working correctly, you should be able finish this section without any issues. Please check with your instructor if you have any issues. 
 
 Note: We anticipate most issues to arise from installing WSL. That's normal. 
 
-Open a new bash terminal (or WSL terminal on Windows) and execute the commands below. **Copy** and execute each command **line-by-line**:
+Open a new bash terminal (or WSL terminal on Windows) and execute the commands below. Copy and execute each command line-by-line:
 
 ```bash
 # --------------------------------
