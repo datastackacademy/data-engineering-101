@@ -9,7 +9,7 @@ Python is:
 
 
 ## Google Colab
-In bootcamp, and in the rest of this course, we'll write Python in an application called VSCode. For today we'll use Google Colab.
+In bootcamp, and in the rest of this course, we'll write Python in an application called VS Code. For today we'll use Google Colab.
 
 Colab lets you:
 - Include blocks of text, called 'Markdown', throughout your code.

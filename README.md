@@ -18,7 +18,7 @@ Everything you'll need is in this GitHub repository, also called a 'repo'. It's 
 ## What This Course Covers
 The Data Engineering 101 Pre-Enrollment course is a gentle introduction to:
 - The Python programming language. Python is often used in data engineering jobs, and it's the language we use in bootcamp.
-- Setting up and using a coding environment. There are a lot to choose from, but we'll use VSCode.
+- Setting up and using a coding environment. There are a lot to choose from, but we'll use VS Code.
 - Using Git to have several different versions of a code poject.
 - Using GitHub to share code and collaborate.
 - The command line. This is how pros interact with their operating systems.

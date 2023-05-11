@@ -138,9 +138,9 @@ There are a few important keyboard shortcuts in VS Code that are helpful to memo
 
 ### Opening Projects
 
-You can use the **File** menu to open new or existing VSCode projects.
+You can use the **File** menu to open new or existing VS Code projects.
 
-You can also open a project in VS Code from the terminal. This is sometimes useful when you are navigating between project folders and need to quickly view the code in your working directory in VSCode. This works out of the box on Linux and Windows; Mac users follow [this additional step](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line). Then, you can run:
+You can also open a project in VS Code from the terminal. This is sometimes useful when you are navigating between project folders and need to quickly view the code in your working directory in VS Code. This works out of the box on Linux and Windows; Mac users follow [this additional step](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line). Then, you can run:
 
 ```bash
 code .
