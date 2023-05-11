@@ -38,7 +38,10 @@ Push changes from local -> remote. Pull changes remote -> local.
 ### Commit Messages
 'Committing' will create a record of your changes in the project's version history. When you commit changes, include a short message of what you did and why. These messages show up in the version history too. Writing useful messages can save you a lot of trouble if you need to troubleshoot later.
 
-By convention, commit messages are written in the present tense.
+By convention, commit messages are written in the present tense, like this:
+```bash
+git commit -m "do a thing"
+```
 
 ### Branches, Pull Requests, and Merging
 On both the remote and local, the `main` branch is the official version of the project. Creating a branch makes a copy of the project where you can play around and make changes without affecting the `main` branch. 
@@ -97,7 +100,7 @@ We recommend the flow of:
 4. Writing, saving, and commiting changes to the local files
 5. Creating a remote repository on GitHub and pushing the local repository to it
 
-Steps 3 and 4 will be repeated for as long as you're working on the project. We'll look at all the steps in more detail below.
+Step 4 and pushing changes will be repeated for as long as you're working on the project. We'll look at all the steps in more detail below.
 
 ### Step 1: Make the Repo and Files
 - Start a new repo in VS Code. You can call it whatever you want, and delete it later. Include:
@@ -107,7 +110,7 @@ Steps 3 and 4 will be repeated for as long as you're working on the project. We'
 - A `practice.ipynb` notebook file, with at least one markdown cell and one code cell. Put whatever you'd like in each of the cells
 - A `main.py` file, containing some Python code. In many Python repositories, the code is all contained in `.py` files, rather than notebooks. It's convention to name the file that ties all the other pieces of the project together `main.py`
 
-> We recommend practicing terminal commands. Here are the the commands for making folders and files, and opening VS Code.
+We recommend practicing terminal commands. Here are the the commands for making folders and files, and opening VS Code.
 - In the folder where you'll keep repositories, make a new directory and switch to it:
 ```
 mkdir <dir_name>
@@ -145,7 +148,7 @@ pip install -r requirements.txt
 ```
 You only have to install the requirements once. They'll be there each time you reactivate the virtual environment for that project.
 
-### Step 3: Iniitalize a Git Repository
+### Step 3: Initialize a Git Repository
 
 - Initialize a new Git repository, so you can version control the project:
 ```
@@ -155,7 +158,7 @@ git init
 ### Step 4: Make and Commit Changes in the Files
 
 - Put whatever you want in the files, and save the changes.
-- Add the files the Git staging area:
+- Add the files to the Git staging area:
 ``` 
 git add <file_name> <file_name>
 ```
@@ -165,12 +168,12 @@ git add <file_name> <file_name>
 git commit -m "<commit_message>"
 ```
 
-### Step 5: 
-Now you'll have to make a remote repository to push our local changes to. On your GitHub profile, in the "Repositories" tab, click the green "New" button. Give your new repository a name, then click the green "Create repository" button at the bottom.
+### Step 5: Create a Remote Repository and Push the Local to It
+On your GitHub profile, in the "Repositories" tab, click the green "New" button. Give your new repository a name, then click the green "Create repository" button at the bottom.
 
 You'll be redirected. Follow the commands under the heading "…or push an existing repository from the command line".
 
-If you refresh the GitHub page, you'll see your new repository that reflects the files, commit messages, and branches you made on your local repository.
+If you refresh the GitHub page, you'll see your new repository that reflects the files, code, and commit messages you made on your local repository.
 
 Commit and push your local changes often. It'll make it easier to go back to earlier versions of the project, and will also save your work remotely even if your laptop crashes.
 
