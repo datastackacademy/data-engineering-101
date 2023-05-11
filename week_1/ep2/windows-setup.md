@@ -56,7 +56,7 @@ Once you have Ubuntu installed on your WSL, you should update your Ubuntu instal
 
 ## Accessing Files
 
-Becuase Ubuntu uses a file structure, it's hard to find where your WSL Ubuntu files live under you actual Windows machine. To open the content of any Ubuntu folder, you can simple run the following command:
+Because Ubuntu uses a file structure, it's hard to find where your WSL Ubuntu files live under you actual Windows machine. To open the content of any Ubuntu folder, you can simple run the following command:
 
 ```bash
 explorer.exe .
