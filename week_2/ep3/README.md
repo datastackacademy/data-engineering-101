@@ -8,7 +8,7 @@ The commands described here are standard on any Linux-flavored OS, but they migh
 You can find out more about these commands by looking up their man (manual) pages.
 `man <command_name>` shows you the manual page for the command.
 
-You're also encouraged to Google commands for me info. For example, here's a [link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/?ref=lbp) for working with the `find` command.
+You're also encouraged to Google commands for more info. For example, here's a [link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/?ref=lbp) for working with the `find` command.
 
 
 Test each of the commands below in your terminal, and take time to understand the output. If a command is stalling out, you can stop it by typing `Ctrl + c`.
