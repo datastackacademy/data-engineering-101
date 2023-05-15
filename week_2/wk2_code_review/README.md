@@ -8,17 +8,17 @@ Today's code review will let you show off your understanding of Python basics: f
 
 ### Instructions
 - Make sure your repository includes a completed `.gitignore`, a `requirements.txt`, and a `README`.
-- In a Python file (`.py`) or a notebook (`.pynb`) called `main`:
+- In a Python file (`.py`) or a notebook (`.ipynb`) called `main`:
     - Write a function called `plus_three` that takes an argument, adds three to it, and returns the sum. 
     - Call `plus_three` twice, with a different argument each time.
-    - Write a function called `weather_report`. In the body of `weather_report`, assign the value `f"Today is {first_argument} and {second_argument}"` to a variable called `today`. Return `today`.
+    - Write a function called `weather_report`. It should take two arguments, `weather_1` and `weather_2` In the body of `weather_report`, assign the value `f"Today is {weather_1} and {weather_1}"` to a variable called `today`. Return `today`.
     - Call `weather_report`.
     - Make a tuple called `top_ten` that contains the numbers 1 thru 10.
     - Write a `for` loop that multiples each number in `top_ten` by itself and prints the product.
     - Write an `if` statement that check whether the number 7 is in `top_ten`. If it is, print the string `"We have a 7"`. Otherwise, print `"No 7 here"`.
 
-- Push all your code to a new public repository on your GitHub called 'DE 101 Code Review 2'
-- Make at least three commits on the repository
+- Push all your code to a new public repository on your GitHub called 'DE 101 Code Review 2'.
+- Make at least three commits on the repository.
 
 
 ### Accepting Criteria
