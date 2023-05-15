@@ -7,7 +7,7 @@ Turning in this code review is how we'll count your attendance for today. Be sur
 Today's code review will let you show off your understanding of Python basics: functions, flow control, and data types. 
 
 ### Instructions
-- Make sure your repository includes a completed `.gitignore`, a `requirements.txt`, and a `README`.
+- Make sure your repository includes a completed `.gitignore`, a `requirements.txt`, and a `README.md`.
 - In a Python file (`.py`) or a notebook (`.ipynb`) called `main`:
     - Write a function called `plus_three` that takes an argument, adds three to it, and returns the sum. 
     - Call `plus_three` twice, with a different argument each time.
@@ -23,7 +23,7 @@ Today's code review will let you show off your understanding of Python basics: f
 
 ### Accepting Criteria
 In order for the code review to pass, it has to include:
-- An informative README
+- An informative `README.md`
 - A `.gitignore` file
 - A  `requirements.txt`
 - A file called either `main.py` or `main.ipynb`
