@@ -63,7 +63,7 @@ This is the simplest way to use Git. The flow is:
 Committing often makes it easier to find and fix errors.
 
 - `git push <remote_name> <remote_brach>` sends the committed changes from your local (VS Code) to the remote (GitHub). Nobody else can see the changes until you push them. 
-Usually, the remote name will be "origin". If there aren't any branches, the main branch defaults to 'main', so the command is `git push origin main`. But this breaks one of the golden rules of Git: don't push to `main`! In a collaborative or production setting, the `main` branch the official version of the project that has been reviewed and agreed on. Pushing to a branch instead allows you and your peers to review changes before they become the official version of the project.
+Usually, the remote name will be `origin`. If there aren't any branches, the main branch defaults to `main`, so the command is `git push origin main`. But this breaks one of the golden rules of Git: don't push to `main`! In a collaborative or production setting, the `main` branch the official version of the project that has been reviewed and agreed on. Pushing to a branch instead allows you and your peers to review changes before they become the official version of the project.
 
 #### With Branches
 Even when you're working alone, get in the habit of using branches. The flow is:
