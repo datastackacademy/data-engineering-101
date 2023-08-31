@@ -18,7 +18,7 @@ Colab lets you:
 
 The Python tutorial we use today is adapted from the [Data Stack Academy 5 Day Python Challenge](https://drive.google.com/drive/folders/1FxlXQNr1bgL67o5PcxNDTkRHqhiOLPRR?usp=share_link). 
 
-[Click here](https://colab.research.google.com/drive/1d-kGaUWYM7SfM38LOOBXvV6ETQH0BQ2n?usp=sharing) to open notebook 1, where you can find lessons on the basics of Python and notebooks. Then you can keep going in [notebook 2](https://colab.research.google.com/drive/1JyqPk1WabYuac9Himwo4bnF_e8ms4-fS?usp=sharing) to learn the more advanced concept of the dictionary data structure.
+Log into a Google account, then [click here](https://colab.research.google.com/drive/1d-kGaUWYM7SfM38LOOBXvV6ETQH0BQ2n?usp=sharing) to open notebook 1, where you can find lessons on the basics of Python and notebooks. Then you can keep going in [notebook 2](https://colab.research.google.com/drive/1JyqPk1WabYuac9Himwo4bnF_e8ms4-fS?usp=sharing) to learn the more advanced concept of the dictionary data structure.
 
 
 ## Goals for Today
