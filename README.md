@@ -31,7 +31,7 @@ DE101 is taught live 8:30am-11:30am PST. Missing more than two hours of the cour
 
 Each class day has an episode. An episode is just a folder. It has all the instructions and exercises for that day.
 
-We meet as a class Monday thru Thursday. Attendance isn't taken on Friday. Instead, you'll have that time to work on your code review (more on that later).
+We meet as a class Monday-Thursday. Attendance isn't taken on Friday. Instead, you'll have that time to work on your code review (more on that later).
 
 Classmates and teachers are available to help you during live class hours. Of course, you're welcome to work through the material any time.
 
