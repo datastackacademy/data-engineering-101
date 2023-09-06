@@ -2,7 +2,7 @@
 
 In the first part of today's lesson, we'll be practicing Git and GitHub. These are essential tools for version control, collaboration, and presenting your work. In bootcamp, you'll use Git and GitHub for your weekly code reviews and your team projects. You'll also probably use them in the rest of your data engineering career.
 
-Git is an open source software used for version control. [GitHub](https://github.com/) is the industry standard for using Git to collaborate on development projects, and to store a portfolio of your own projects (projects on GitHub are called repositories, or repos). 
+Git is an open source software used for version control. [GitHub](https://github.com/) is the industry standard for using Git to collaborate on development projects, and to store a portfolio of your own projects (projects on GitHub are called repositories, or repos). Hey, we're in a GitHub repository right now! Take a minute to explore it.
 
 We'll also go over general setup for the kinds of projects you'll have on GitHub. 
 
