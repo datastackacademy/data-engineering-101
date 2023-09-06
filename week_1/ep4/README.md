@@ -1,7 +1,7 @@
 # Putting It All Together, and the Student Handbook
 This week we've started learning Python, VS Code, and GitHub. Today, we'll pull it all together. It's a lot like what you'll do for the code review tomorrow.
 
-When you're done with the code and GitHub practice, take some time to read Data Stack Academy's ['Course Syllabus and Policies'](https://docs.google.com/document/d/1-k3e7yBTYhT00aO3yYzlBqNF37SpIKuF-swhT1kNxwk/edit?usp=sharing). This will prepare you for the rules and rhythms of bootcamp. There'll be a short quiz on it as part of the tomorrow's code review.
+When you're done with the code and GitHub practice, take some time to read Data Stack Academy's ['Course Syllabus and Policies'](https://datastack.academy/course-syllabus-and-policies/). This will prepare you for the rules and rhythms of bootcamp. There'll be a short quiz on it as part of the tomorrow's code review.
 
 ## Putting It All Together: Python, VS Code, and GitHub
 We're going to create a project for practicing this week's skills. 
@@ -24,7 +24,7 @@ Repeat the writing, committing, and pushing steps as many times as you need.
 In this episode 4 folder, you'll find the file `python_challenge.md`. It has instructions for the code to include in your project. 
 
 ## Data Stack Academy Student Handbook
-The goal of this pre-enrollment course is to get you ready for bootcamp. Please read through the ['Course Syllabus and Policies'](https://docs.google.com/document/d/1-k3e7yBTYhT00aO3yYzlBqNF37SpIKuF-swhT1kNxwk/edit?usp=sharing) so you know what to expect. 
+The goal of this pre-enrollment course is to get you ready for bootcamp. Please read through the ['Course Syllabus and Policies'](https://datastack.academy/course-syllabus-and-policies/) so you know what to expect. 
 
 ## Goals for Today
 - Practice using Python, VS Code, Git, and GitHub
