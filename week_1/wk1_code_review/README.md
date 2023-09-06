@@ -2,7 +2,7 @@
 
 Every Friday in bootcamp, you'll have a code review to show that you've learned the skills for that week. Normally, they're not visible til that day. 
 
-Code reviews are due at 5pm PST the next day (Saturday). You can find more details about the code reviews in bootcamp in the ['Course Syllabus and Policies'](https://datastack.academy/course-syllabus-and-policies/).
+Code reviews are due at 5pm PST the next day (Saturday). If you decide to continue on to bootcamp, code review resubmissions will follow the schedule outlined in the ['Course Syllabus and Policies'](https://datastack.academy/course-syllabus-and-policies/).
 
 Turning in this code review is how we'll count your attendance for today. Be sure to follow the instructions carefully. 
 
@@ -43,7 +43,9 @@ In order for the code review to pass, it has to include:
 - A list called `grab_bag`
 - A dictionary called `puppies`
 - Code that will print the keys in the `puppies` dictionary
-- At least three commits. 
+- At least three commits.
+
+A passing quiz can only miss one question. Resubmissions are allowed.
 
 Email a link to your 'DE 101 Code Review 1' GitHub repository to alma@datastack.academy by 5pm PST Saturday. Give the email the subject line 'DE 101 Code Review 1'.
 
