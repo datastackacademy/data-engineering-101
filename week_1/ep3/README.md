@@ -20,7 +20,7 @@ Take some time to click around on your new GitHub profile to explore the tabs.
 You can think of a local repo as the version of a project you have on your own computer, where you can make changes to share later, and a remote repository as the one on GitHub, seen by everyone. 
 
 ### Initializing a Repository
-This makes a unversioned project into a Git repository by creating a .git subdirectory. Run this command one time when you're setting up your project:
+This makes a versioned project into a Git repository by creating a .git subdirectory. Run this command one time when you're setting up your project:
 ```
 git init
 ```
