@@ -2,7 +2,7 @@
 
 Every Friday in bootcamp, you'll have a code review to show that you've learned the skills for that week. Normally, they're not visible til that day. 
 
-Code reviews are due at 5pm PST the next day (Saturday). You can find more details about the code reviews in bootcamp in the ['Course Syllabus and Policies'](https://docs.google.com/document/d/1-k3e7yBTYhT00aO3yYzlBqNF37SpIKuF-swhT1kNxwk/edit?usp=sharing).
+Code reviews are due at 5pm PST the next day (Saturday). You can find more details about the code reviews in bootcamp in the ['Course Syllabus and Policies'](https://datastack.academy/course-syllabus-and-policies/).
 
 Turning in this code review is how we'll count your attendance for today. Be sure to follow the instructions carefully. 
 
@@ -11,7 +11,7 @@ Today's code review has two parts.
 
 For the first part, you'll make a GitHub repository with the usual setup files and some basic Python code. 
 
-For the second part, you'll have a quiz on Data Stack Academy's ['Course Syllabus and Policies'](https://docs.google.com/document/d/1-k3e7yBTYhT00aO3yYzlBqNF37SpIKuF-swhT1kNxwk/edit?usp=sharing)
+For the second part, you'll have a quiz on Data Stack Academy's ['Course Syllabus and Policies'](https://datastack.academy/course-syllabus-and-policies/)
 
 ## Part 1: Python and GitHub
 The project should be well-commented, without unused code.
