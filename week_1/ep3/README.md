@@ -302,4 +302,4 @@ git restore <file>
 
 ## Goals for Today
 - Learn the tools and flow of GitHub
-- Practice the GitHub setup used in Data Stack Academy's weekly code reveiws
+- Practice the GitHub setup used in Data Stack Academy's weekly code reviews
