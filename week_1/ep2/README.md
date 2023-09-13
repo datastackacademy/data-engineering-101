@@ -9,3 +9,5 @@ We'll talk about how and why to use these tools as we go along. For now, we'll j
 ## Goals for Today
 - Do the installations and configurations needed to get your system ready for data engineering.
 - Successfully run the 'Getting Started Test' at the end of 'system_setup.md'.
+- Activate a virtual environment and install requirements with a requirements.txt file.
+- Run notebooks in VSCode.
