@@ -21,7 +21,7 @@ All primitive types include methods that perform various actions. For example th
 You can access methods by including a `.` after the variable name, then adding the method name followed by parenthesis. For example:
 
 ```python
-# make a variable that hold a string
+# make a variable that holds a string
 school = "data stack"
 
 # use a method
