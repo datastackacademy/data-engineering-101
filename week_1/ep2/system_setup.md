@@ -394,4 +394,24 @@ code .
 
 <br/><br/>
 
+## Using Notebooks in VSCode
+In episode 1, we used notebooks online, in Google Colab. For the rest of this class, we'll be running them within VSCode.
+
+To do that, we need to have `jupyterlab` installed in our virtual environment. In your terminal, make sure you're in the week_1/ep2 folder, and activate your virtual environment:
+
+```
+source venv/bin/activate
+
+```
+
+Instead of using `pip` for installing each individual requirement, it's standard to have all the needed installations in a `requirements.txt` file. We have one in this episode, containing `jupyterlab`. Install it with
+```
+pip install -r requirements.txt
+```
+Notebooks have a `.ipynb` extension. Open `demo_notebook.ipynb` and try to run the code cell. You'll be prompted to select a kernel. Click on 'Python Environments' and select 'venv'.
+
+Now you can use the notebook just like on Colab, but it can also interact with your other files.
+
+
+<br></br>
 Whew! Nice work.
