@@ -22,9 +22,9 @@ Test each of the commands below in your terminal, and take time to understand th
 
 `ls -a` - lists all files, including the ones whose filenames begin in a dot, which you do not always want to see. There are many more options, for example to list files by size, by date, recursively etc.
     
-`more <filename>` - shows the first part of a file, just as much as will fit on one screen. Just hit the space bar to see more or q to quit. You can use /pattern to search for a pattern.
+`more <filename>` - shows the first part of a file, just as much as will fit on one screen. Just hit the space bar to see more or `q`` to quit. 
     
-`nano <filename>` - is an editor that lets you create and edit a file. See the [beginner's guide to nano](https://itsfoss.com/nano-editor-guide/).
+`nano <filename>` - Nano is an editor that lets you create and edit a file. See the [beginner's guide to nano](https://itsfoss.com/nano-editor-guide/).
     
 `mv <filename1> <filename2>` - moves a file (i.e. gives it a different name, or moves it into a different directory (see below)
     
