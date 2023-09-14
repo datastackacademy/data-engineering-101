@@ -64,28 +64,69 @@ Let's break it down:
 
 
 
-`ls -a` lists all files. Filenames that begin with a `.` are normally hidden, usually because they should only be modified with caution. 
+`ls -a` lists all files. itemnames that begin with a `.` are normally hidden, usually because they should only be modified with caution. 
 
-> Note: filenames in Linux are case sensitive. Use an underscore or hyphen to separate words, instead of whitespace, which will cause the words to be read as separate names in the terminal. 
+> Note: itemnames in Linux are case sensitive. Use an underscore or hyphen to separate words, instead of whitespace, which will cause the words to be read as separate names in the terminal. 
 
-## Changing and Moving Files
+`less <itemname>` shows the contents of a file. Use the arrow keys to scroll, or `q`` to quit. 
+
+## Making, Moving, and Removing Files and Directories
+`mkdir <dirname>` makes a new directory in the directory you're currently in. You can use `mkdir` followed by several folder names, and they'll all be created at once.
+
+`mv <itemname1> <itemname2>` moves `<itemname1>` into `<itemname2>`, if `<itemname2>` exists. Otherwise, `<itemname1>` gets renamed as `<itemname2>`. You can't move the directory you're currently in.
+
+`touch <itemname>` creates a file in the directory you're currently in.
+
+`rm <itemname>` deletes the item. Careful! You won't get a warning, and it can't be reversed. `rm` has some useful options:
+
+|Short name|Long name|Purpose|
+|----|----|----|
+|-i|--interactive|Prompt the user for confirmation before deleting|
+|-r|--recursive|This has to be used if you're deleting a directory that contains subdirectories|
+|-v|--verbose|Show info about the deletion|
+
+You can use several options at once, like this: `rm -rv <dirname>`
+
+
+
+### Exercise
+- In your terminal, navigate to the week_2/ep3 folder
+- Use `mkdir` to create two new directories, `thing1` and `thing2`
+- In `thing2`, use `touch` to create a file
+- Use `mv` to move `thing2` into `thing1`
+- `ls` the contents of `thing1` to make sure that worked
+- Recursively remove `thing1` and its contents
+
+- Hint: for each step, make sure you're in the right directory.
+
+## Writing to a File
+
+`echo "hello"` - print a message to the console
+
+`echo "hello" > <filename>` - use the redirect symbol (`>`) to direct the output of `echo` command into a file
+
+`cat <filename>` - display the content of <filename>
+
+`echo " world" >> <filename>` - use the redirect-append symbol (`>>`) to append the output of `echo` command into an existing file
+
+`cat test.txt` - display the content of test.txt
 
     
-`more <filename>` - shows the first part of a file, just as much as will fit on one screen. Just hit the space bar to see more or `q`` to quit. 
+
     
-`nano <filename>` - Nano is an editor that lets you create and edit a file. See the [beginner's guide to nano](https://itsfoss.com/nano-editor-guide/).
+`nano <itemname>` - Nano is an editor that lets you create and edit a file. See the [beginner's guide to nano](https://itsfoss.com/nano-editor-guide/).
     
-`mv <filename1> <filename2>` - moves a file (i.e. gives it a different name, or moves it into a different directory (see below)
+`mv <itemname1> <itemname2>` - moves a file (i.e. gives it a different name, or moves it into a different directory (see below)
     
-`cp <filename1> <filename2>` - copies a file
+`cp <itemname1> <itemname2>` - copies a file
     
-`rm <filename>` - removes a file. It is wise to use the option rm -i, which will ask you for confirmation before actually deleting anything. You can make this your default by making an alias in your .cshrc file.
+`rm <itemname>` - removes a file. It is wise to use the option rm -i, which will ask you for confirmation before actually deleting anything. You can make this your default by making an alias in your .cshrc file.
     
-`diff <filename1> <filename2>` - compares files, and shows where they differ
+`diff <itemname1> <itemname2>` - compares files, and shows where they differ
     
-`wc <filename>` - tells you how many lines, words, and characters there are in a file
+`wc <itemname>` - tells you how many lines, words, and characters there are in a file
     
-`chmod [options] <filename>` - lets you change the read, write, and execute permissions on your files. The default is that only you can look at them and change them, but you may sometimes want to change these permissions. For example, chmod o+r filename will make the file readable for everyone, and chmod o-r filename will make it unreadable for others again. Note that for someone to be able to actually look at the file the directories it is in need to be at least executable. See [this guide to Linux permissions](https://opensource.com/article/19/6/understanding-linux-permissions) for more details.
+`chmod [options] <itemname>` - lets you change the read, write, and execute permissions on your files. The default is that only you can look at them and change them, but you may sometimes want to change these permissions. For example, chmod o+r itemname will make the file readable for everyone, and chmod o-r itemname will make it unreadable for others again. Note that for someone to be able to actually look at the file the directories it is in need to be at least executable. See [this guide to Linux permissions](https://opensource.com/article/19/6/understanding-linux-permissions) for more details.
 
 <br/>
 
@@ -96,27 +137,7 @@ Directories are used to group files together in a hierarchical structure. It's b
 
 `cd <dirname>`  - change directory. Your working directory (where you are) will change, and you will see the files in that directory when you do `ls`. You always start out in your home directory, and you can get back there by typing `cd` without arguments. `cd ..` will get you one level up from your current position. `cd ../..` will get you two levels up from your current position, and so on. You don't have to walk along step by step - you can make big leaps or avoid walking around by specifying pathnames.
     
-`pwd` - tells you where you currently are. 
 
-<br/>
-
-## File Compression
-`gzip <filename>` --- compresses files, so that they take up much less space. Usually text files compress to about half their original size, but it depends on the size of the file and the nature of the contents. There are other tools for this purpose, too (e.g. compress), but gzip usually gives the highest compression rate. Gzip produces files with the ending '.gz' appended to the original filename.
-        
-`gunzip <filename>` - uncompresses files compressed by gzip.
-        
-`gzcat <filename>` - lets you look at a gzipped file without actually having to gunzip it (same as gunzip -c). 
-
-`tar -xzvf` - untar a .tar file
-
-<br/>
-
-## Finding things
-`find` - find files anywhere on the system. This can be extremely useful if you've forgotten in which directory you put a file, but do remember the name. In fact, if you use ff -p you don't even need the full name, just the beginning. This can also be useful for finding other things on the system, e.g. documentation.
-    
-`grep <string> <filename(s)>` - looks for the string in the files. This can be useful a lot of purposes, e.g. finding the right file among many, figuring out which is the right version of something, and even doing serious corpus work. grep comes in several varieties (grep, egrep, and fgrep) and has a lot of very flexible options. 
-
-`grep` takes arguments as regular expressions ("regex"), which matches patterns. We recommend the site [https://regex101.com/](https://regex101.com/) to learn more about regex.
 
 <br/>
 
@@ -132,23 +153,13 @@ Directories are used to group files together in a hierarchical structure. It's b
     
 `pkill <PNAME>` - kill a particular process using the process name
 
-`du <filename>` - shows the disk usage of the files and directories in filename (without argument the current directory is used). du -s gives only a total.
+`du <itemname>` - shows the disk usage of the files and directories in itemname (without argument the current directory is used). du -s gives only a total.
     
 `df` - shows a list of disks on the system and the amount of disk space used
 
 <br/>
 
-## Working with file content 
 
-`echo "hello"` - print a message to the console
-
-`echo "hello" > test.txt` - use the redirect symbol (`>`) to direct the output of `echo` command into a file
-
-`cat test.txt` - display the content of test.txt
-
-`echo " world" >> test.txt` - use the redirect-append symbol (`>>`) to append the output of `echo` command into an existing file
-
-`cat test.txt` - display the content of test.txt
 
 ## Goals for Today
-- Learn how to navigate your computer's command line
+- Learn more about using the command line
