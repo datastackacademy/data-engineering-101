@@ -67,7 +67,7 @@ It can help to look at your file system on your desktop, and compare it to navig
 ## Goals for Today
 - Start learning the very basics of Python
 - Get familiar with Colab
-- Start navigating in the terminal.
+- Start navigating in the terminal
 
 
 

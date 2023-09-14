@@ -407,6 +407,9 @@ Instead of using `pip` for installing each individual requirement, it's standard
 ```
 pip install -r requirements.txt
 ```
+
+In bootcamp, episodes each have their own `requirements.txt` file because the environment requirements differ between lessons. All the `requirements.txt` files in this workshop are the same, but we still recommend making a new virtual environment for each episode anyway, to get in the habbit.
+
 Notebooks have a `.ipynb` extension. Open `demo_notebook.ipynb` and try to run the code cell. You'll be prompted to select a kernel. Click on 'Python Environments' and select 'venv'.
 
 Now you can use the notebook just like on Colab, but it can also interact with your other files.
