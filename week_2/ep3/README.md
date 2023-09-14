@@ -22,30 +22,30 @@ Test each of the commands below in your terminal, and take time to understand th
 
 `ls -a` - lists all files, including the ones whose filenames begin in a dot, which you do not always want to see. There are many more options, for example to list files by size, by date, recursively etc.
     
-`more filename` - shows the first part of a file, just as much as will fit on one screen. Just hit the space bar to see more or q to quit. You can use /pattern to search for a pattern.
+`more <filename>` - shows the first part of a file, just as much as will fit on one screen. Just hit the space bar to see more or q to quit. You can use /pattern to search for a pattern.
     
-`nano filename` - is an editor that lets you create and edit a file. See the [beginner's guide to nano](https://itsfoss.com/nano-editor-guide/).
+`nano <filename>` - is an editor that lets you create and edit a file. See the [beginner's guide to nano](https://itsfoss.com/nano-editor-guide/).
     
-`mv filename1 filename2` - moves a file (i.e. gives it a different name, or moves it into a different directory (see below)
+`mv <filename1> <filename2>` - moves a file (i.e. gives it a different name, or moves it into a different directory (see below)
     
-`cp filename1 filename2` - copies a file
+`cp <filename1> <filename2>` - copies a file
     
-`rm filename` - removes a file. It is wise to use the option rm -i, which will ask you for confirmation before actually deleting anything. You can make this your default by making an alias in your .cshrc file.
+`rm <filename>` - removes a file. It is wise to use the option rm -i, which will ask you for confirmation before actually deleting anything. You can make this your default by making an alias in your .cshrc file.
     
-`diff filename1 filename2` - compares files, and shows where they differ
+`diff <filename1> <filename2>` - compares files, and shows where they differ
     
-`wc filename` - tells you how many lines, words, and characters there are in a file
+`wc <filename>` - tells you how many lines, words, and characters there are in a file
     
-`chmod options filename` - lets you change the read, write, and execute permissions on your files. The default is that only you can look at them and change them, but you may sometimes want to change these permissions. For example, chmod o+r filename will make the file readable for everyone, and chmod o-r filename will make it unreadable for others again. Note that for someone to be able to actually look at the file the directories it is in need to be at least executable. See [this guide to Linux permissions](https://opensource.com/article/19/6/understanding-linux-permissions) for more details.
+`chmod [options] <filename>` - lets you change the read, write, and execute permissions on your files. The default is that only you can look at them and change them, but you may sometimes want to change these permissions. For example, chmod o+r filename will make the file readable for everyone, and chmod o-r filename will make it unreadable for others again. Note that for someone to be able to actually look at the file the directories it is in need to be at least executable. See [this guide to Linux permissions](https://opensource.com/article/19/6/understanding-linux-permissions) for more details.
 
 <br/>
 
 ## Directories
 Directories are used to group files together in a hierarchical structure. It's basically a folder. Here are some commands for navigating directory structure.
 
-`mkdir dirname` - make a new directory
+`mkdir <dirname>` - make a new directory
 
-`cd dirname`  - change directory. Your working directory (where you are) will change, and you will see the files in that directory when you do `ls`. You always start out in your home directory, and you can get back there by typing `cd` without arguments. `cd ..` will get you one level up from your current position. `cd ../..` will get you two levels up from your current position, and so on. You don't have to walk along step by step - you can make big leaps or avoid walking around by specifying pathnames.
+`cd <dirname>`  - change directory. Your working directory (where you are) will change, and you will see the files in that directory when you do `ls`. You always start out in your home directory, and you can get back there by typing `cd` without arguments. `cd ..` will get you one level up from your current position. `cd ../..` will get you two levels up from your current position, and so on. You don't have to walk along step by step - you can make big leaps or avoid walking around by specifying pathnames.
     
 `pwd` - tells you where you currently are. 
 
@@ -65,7 +65,7 @@ Directories are used to group files together in a hierarchical structure. It's b
 ## Finding things
 `find` - find files anywhere on the system. This can be extremely useful if you've forgotten in which directory you put a file, but do remember the name. In fact, if you use ff -p you don't even need the full name, just the beginning. This can also be useful for finding other things on the system, e.g. documentation.
     
-`grep string <filename(s)>` - looks for the string in the files. This can be useful a lot of purposes, e.g. finding the right file among many, figuring out which is the right version of something, and even doing serious corpus work. grep comes in several varieties (grep, egrep, and fgrep) and has a lot of very flexible options. 
+`grep <string> <filename(s)>` - looks for the string in the files. This can be useful a lot of purposes, e.g. finding the right file among many, figuring out which is the right version of something, and even doing serious corpus work. grep comes in several varieties (grep, egrep, and fgrep) and has a lot of very flexible options. 
 
 `grep` takes arguments as regular expressions ("regex"), which matches patterns. We recommend the site [https://regex101.com/](https://regex101.com/) to learn more about regex.
 
@@ -79,11 +79,11 @@ Directories are used to group files together in a hierarchical structure. It's b
 
 `ps aux | grep chrome` - list processes and filter to only running chrome processes
 
-`kill PID` --- kills (ends) the processes with the ID you gave. Get the ID by using ps. If the process doesn't 'die' properly, use the option -9. But attempt without that option first, because it doesn't give the process a chance to finish possibly important business before dying. 
+`kill <PID>` --- kills (ends) the processes with the ID you gave. Get the ID by using `ps``. If the process doesn't 'die' properly, use the option -9. But attempt without that option first, because it doesn't give the process a chance to finish possibly important business before dying. 
     
 `pkill <PNAME>` - kill a particular process using the process name
 
-`du filename` - shows the disk usage of the files and directories in filename (without argument the current directory is used). du -s gives only a total.
+`du <filename>` - shows the disk usage of the files and directories in filename (without argument the current directory is used). du -s gives only a total.
     
 `df` - shows a list of disks on the system and the amount of disk space used
 
