@@ -20,8 +20,7 @@ Here's a quick look at what's needed:
 
 <br/><br/>
 
-## The Terminal
-These instructions have you using your terminal. The terminal is how you interact with your operating system. You can open it by clicking on the terminal icon on your desktop. If you don't see one, search for how to open a terminal on whatever operating system you're using.
+
 
 ## Windows Subsystem for Linux (WSL)
 

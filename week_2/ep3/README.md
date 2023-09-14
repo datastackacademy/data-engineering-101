@@ -1,22 +1,21 @@
 # Command Line
-Before we dive back into Python, let's learn some command-line interface (CLI) tools. The command-line lets your search and navigate your file system. 
+Before we dive back into Python, let's learn some command-line interface (CLI) tools. The command-line lets your search and navigate your file system, change the kinds of permissions on files, and much more. 
 
 We've already used it for Git and GitHub. Here, we'll learn other common commands. 
 
 The commands described here are standard on any Linux-flavored OS, but they might not all be available on every system, depending on your distribution. Because Mac OS is based on Free BSD, most (though not all) standard Linux commands are available from a Mac OS terminal.
 
-You can find out more about these commands by looking up their man (manual) pages.
-`man <command_name>` shows you the manual page for the command.
+You can find out more about these commands by looking up their man (manual) pages with `man <command_name>` 
 
 You're also encouraged to Google commands for more info. For example, here's a [link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/?ref=lbp) for working with the `find` command.
 
 
-Test each of the commands below in your terminal, and take time to understand the output. If a command is stalling out, you can stop it by typing `Ctrl + c`.
+Navigate to the week_2/ep3 directory in your terminal, and test each of the commands below. Take time to understand the output. If a command is stalling out, you can stop it by typing `Ctrl + c`.
 
 
 ## Files
 
-`ls` - lists your files
+`ls` - lists the files in the directory your currently in.
     
 `ls -l` - lists your files in 'long format', which contains lots of useful information, e.g. the exact size of the file, who owns the file and who has the right to look at it, and when it was last modified. The first row of the output deals with permissions. More on this in the `chmod` entry below.
 
