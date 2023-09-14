@@ -2,7 +2,7 @@
 
 In the first part of today's lesson, we'll be practicing Git and GitHub. These are essential tools for version control, collaboration, and presenting your work. In bootcamp, you'll use Git and GitHub for your weekly code reviews and your team projects. You'll also probably use them in the rest of your data engineering career.
 
-Git is an open source software used for version control. [GitHub](https://github.com/) is the industry standard for using Git to collaborate on development projects, and to store a portfolio of your own projects (projects on GitHub are called repositories, or repos). 
+Git is an open source software used for version control. [GitHub](https://github.com/) is the industry standard for using Git to collaborate on development projects, and to store a portfolio of your own projects (projects on GitHub are called repositories, or repos). Hey, we're in a GitHub repository right now! Take a minute to explore it.
 
 We'll also go over general setup for the kinds of projects you'll have on GitHub. 
 
@@ -20,20 +20,20 @@ Take some time to click around on your new GitHub profile to explore the tabs.
 You can think of a local repo as the version of a project you have on your own computer, where you can make changes to share later, and a remote repository as the one on GitHub, seen by everyone. 
 
 ### Initializing a Repository
-This makes a unversioned project into a Git repository by creating a .git subdirectory. Run this command one time when you're setting up your project:
+This makes a versioned project into a Git repository by creating a .git subdirectory. Run this command one time when you're setting up your project:
 ```
 git init
 ```
 If you try to run a git command, like `git status`, and get the error message `fatal: not a git repository (or any of the parent directories): .git`, it's probably because you didn't `git init`.
 
 ### Forking and Cloning
-In the [course-overview section](https://github.com/datastackacademy/data-engineering-bootcamp/blob/main/getting-started/course-overview.md) you saw how to fork the remote Data Engineering Bootcamp repo, so you had your own remote copy of it.
+Later in this course, you'll see how to fork the remote Data Engineering Bootcamp repo, so you had your own remote copy of it. This allows you to make changes on your copy of a repository, without effecting the shared remote copy.
 You can also create a local repo from a remote by cloning it. A forked repository is a completely independent copy, while a cloned one is sychronized with the remote.
 
 ### Pushing and Pulling
 Push changes from local -> remote. Pull changes remote -> local.
 
-> "Remote" means GitHub. "Local" means your personal computer.
+> Remember, "remote" means GitHub, and "local" means your personal computer.
 
 ### Commit Messages
 'Committing' will create a record of your changes in the project's version history. When you commit changes, include a short message of what you did and why. These messages show up in the version history too. Writing useful messages can save you a lot of trouble if you need to troubleshoot later.
@@ -56,7 +56,7 @@ Git and GitHub can become quite complex, especially when you're collaborating wi
 This is the simplest way to use Git. The flow is:
 - Make changes to your files in VS Code.
 - Save the changes in VS Code.
-- In your terminal, use the command `git add <file_name>` to add each changed file to Git's staging area. If the file isn't in your terminal's present working directory, you'll also have to include the relative path. Do NOT add files with `git add *`, which can accidentally include files that ought to be excluded.
+- In your terminal, use the command `git add <file_name>` to add each changed file to Git's staging area. If the file isn't in your terminal's present working directory, you'll also have to include the relative path. Don't add files with `git add *`, which can accidentally include files that ought to be excluded.
 > The command `git status` will show you what files have been changed since the last commit.
 - `git commit -m "<commit_message>"` will commit the changes to the project's history. What was changed, when it was committed, and the commit message all become part of the project's record. You can look at the commit history using Git or GitHub.
 
@@ -73,7 +73,7 @@ Give your branch a name that describes the way that branch is different from `ma
 
 - Make, add, and commit changes on your branch.
 - Push the changes from a local branch to a remote branch. Using `git push <remote_name> <branch_name>` will create a branch on GitHub with the same name as the local branch you're on, if one doesn't already exist.
-- When you want to add the changes on your branch to the main version of the project, open a pull request. We'll look at this in more detail below. When you're working with others, a pull request lets your peers look at the changes and make suggestions before pulling them into `main`.
+- When you want to add the changes on your branch to the main version of the project, open a pull request. We'll look at this in more detail below. When you're working with others, a pull request lets your peers look at the changes and make suggestions before merging them into `main`.
 
 
 ## Project Setup
@@ -140,7 +140,7 @@ You only have to do this once per project. It creates a directory called `venv`.
 ```
 source venv/bin/activate
 ```
-You'll know it works because `(venv)` will appear in the terminal. Activate the virtual environment each time you open a project.
+You'll know it worked because `(venv)` will appear in the terminal. Activate the virtual environment each time you open a project.
 
 - Install all the packages in the `requirements.txt` file:
 ```
@@ -172,6 +172,13 @@ git commit -m "<commit_message>"
 On your GitHub profile, in the "Repositories" tab, click the green "New" button. Give your new repository a name, then click the green "Create repository" button at the bottom.
 
 You'll be redirected. Follow the commands under the heading "…or push an existing repository from the command line".
+
+> In order to push to GitHub, you'll need a personal access token, which acts as your password. You probably made one of these during account setup. If not, follow [these instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
+
+> If you don't want to enter your username and personal access token every time you push to remote, use the command
+```
+git config --global credential.helper store
+```
 
 If you refresh the GitHub page, you'll see your new repository that reflects the files, code, and commit messages you made on your local repository.
 
@@ -295,4 +302,4 @@ git restore <file>
 
 ## Goals for Today
 - Learn the tools and flow of GitHub
-- Practice the GitHub setup used in Data Stack Academy's weekly code reveiws
+- Practice the GitHub setup used in Data Stack Academy's weekly code reviews

@@ -31,13 +31,13 @@ This section is for **Windows users ONLY**.
 
 Skip this step if you are on Mac OS, Ubuntu, or any other Linux distro.
 
-Windows Subsystem for Linux (**WSL**) allows Windows users to run Ubuntu Linux natively. This course extensively uses a Unix bash terminal. This allows Windows users to follow along and run bash commands natively.
+Windows Subsystem for Linux (WSL) allows Windows users to run Ubuntu Linux natively. This course extensively uses a Unix bash terminal. This allows Windows users to follow along and run bash commands natively.
 
 <br/>
 
 Follow the instructions for [Windows Subsystem for Linux (WSL) setup](windows-setup.md). After WSL installation, return here and continue the next steps on this guide.
 
-**NOTE:** As Windows users, you will install Python on your Ubuntu WSL machine, and **NOT** your native Windows machine. You're welcome to install these on Windows as well (specially Python), but they must run on WSL.
+**NOTE:** As Windows users, you will install Python on your Ubuntu WSL machine, and not your native Windows machine. You're welcome to install these on Windows as well (specially Python), but they must run on WSL.
 
 <br/><br/>
 
@@ -47,7 +47,7 @@ This section is for **Mac OS users ONLY**.
 
 <br>
 
-The default command terminal on Mac OS uses **Z Shell**. Our course is built on a slightly different terminal called **Bash Shell**. Bash is default terminal of Linux based systems which is the ancestor of Mac OS. Mac OS has bash already installed but we must configure it to be the default terminal. 
+The default command terminal on Mac OS uses Z Shell. Our course is built on a slightly different terminal, the Bash shell. Bash is default terminal of Linux based systems which is the ancestor of Mac OS. Mac OS has bash already installed but we must configure it to be the default terminal. 
 
 To change your default command terminal to Bash:
 
@@ -83,17 +83,17 @@ This section will guide through the installation of our favorite IDE (Integrated
     sudo snap install code --classic
     ```
 
-VS Code is very powerful since it provides a vast number of **extensions** to work with various development tools and libraries. These extensions make development a whole lot easier. 
+VS Code is very powerful since it provides a vast number of extensions to work with various development tools and libraries. These extensions make development a whole lot easier. 
 
 ### VS Code Extensions
 
-Now, let's add the **top data engineering** extensions:
+Now, let's add the top data engineering** extensions:
 
-1. **Open** the Extension Tab from the left panel or hit `CTRL` + `SHIFT` + `X`
+1. Open the Extension Tab from the left panel or hit `CTRL` + `SHIFT` + `X`
 
     <img src="img/vscode-extensions.png" alt="Visual Studio Extension Tab" width="650" />
 
-2.  **Search** and **install** the following extensions:
+2.  Search and install the following extensions:
 
     **MUST HAVE**
 
@@ -156,7 +156,7 @@ To read the Markdown instructions files:
 1. Open the markdown `.md` file
 2. Press `CTRL` + `SHIFT` + `V` 
 
-This renders the markdown file as **HTML** which is a lot easier to read and follow.
+This renders the markdown file as HTML, which is a lot easier to read and follow.
 
 <br/><br/>
 
@@ -170,7 +170,7 @@ This renders the markdown file as **HTML** which is a lot easier to read and fol
 
 This course is developed for **Python version 3.7**. 
 
-Even though _Python 3.9_ and _3.10_ are currently available, a lot of the dependency packages in this course don't support them. You are free to install other versions (ie: 3.9 or 3.10) but you must have a working version of **python 3.7**. In fact, it's very common to have multiple versions of Python installed.
+Even though _Python 3.9_ and _3.10_ are currently available, a lot of the dependency packages in this course don't support them. You are free to install other versions (ie: 3.9 or 3.10) but you must have a working version of Python 3.7. In fact, it's very common to have multiple versions of Python installed.
 
 Check to see if you already have Python installed
 
@@ -181,12 +181,12 @@ python3 -V
 - You can skip this section if you see any version that starts with `3.7.*` (here we have 3.7.13).  
 - Don't worry if you see another version or nothing at all. That just means we need to install it.
 
-Follow the instructions below if you do **NOT** have Python 3.7 installed. 
+Follow the instructions below if you don't have Python 3.7 installed. 
 
 <br/>
 
 
-We have included installation steps for Mac OS, Ubuntu, and WSL (Windows) below but if you run into issues there are alternative ways:
+We have included installation steps for Mac OS, Ubuntu, and WSL (Windows) below, but if you run into issues there are alternative ways:
 
 - The easiest way is to Google "install python3.7 <your operating system>" for example _"install python3.7 ubuntu 20.04"_ or _"install python3.7 Mac OS X"_. Follow the instructions that you find for you operating system.
 - You can download python3.7 installers from [python.org](python.org). If you decide to go this way, download and install the highest 3.7 version from python.org.
@@ -195,7 +195,7 @@ We have included installation steps for Mac OS, Ubuntu, and WSL (Windows) below 
 
 ### Ubuntu and Windows WSL
 
-**NOTE:** Windows users should run the python installation steps below from their WSL Ubuntu machine.
+**NOTE:** Windows users should run the Python installation steps below from their WSL Ubuntu machine.
 
 <br>
 
@@ -218,7 +218,7 @@ sudo apt-get install python3.7 python3-pip python3-venv
 python3.7 -m pip install --upgrade setuptools pip virtualenv
 ```
 
-Some users will need to add `pip` to their $PATH. **Skip** this step if you can successfully run this command in a terminal: `pip3 --version`
+Some users will need to add `pip` to their $PATH. Skip this step if you can successfully run this command in a terminal: `pip3 --version`
 
 ```bash
 printf "\n\n# adding pip to \$PATH\nexport PATH=\$PATH:/home/${USER}/.local/bin" >> ~/.bashrc
@@ -244,7 +244,7 @@ python3.7 -m pip install --upgrade setuptools pip virtualenv
 
 ## Jupyter Notebook
 
-Many of the code examples for this course are in [Jupyter notebook](https://ipython.org/ipython-doc/3/notebook/nbformat.html). Jupyter notebooks have become the standard for interactive, collaborative programming and reproducible research. Nearly all data analysts, scientists, and engineers use these notebooks regularly as part of their work.
+Many of the code examples for this course are in [Jupyter notebook](https://ipython.org/ipython-doc/3/notebook/nbformat.html). Jupyter notebooks have become the standard for interactive, collaborative programming. Nearly all data analysts, scientists, and engineers use these notebooks regularly as part of their work.
 
 Installing Jupyter (with pip) is easy and the same across all systems. Simply run:
 
@@ -252,7 +252,7 @@ Installing Jupyter (with pip) is easy and the same across all systems. Simply ru
 pip install jupyterlab
 ```
 
-Jupyter Notebook uses the file extension of `.ipynb`. We call these file **notebooks**. You work with notebooks in either one of the two options below:
+Jupyter Notebook uses the file extension of `.ipynb`. We call these files 'notebooks'. You work with notebooks in either one of the two options below:
 1. [VS Code](#working-with-vs-code)
 2. [Jupyter-lab browser-based UI](#working-with-jupyter-lab)
 
@@ -262,15 +262,15 @@ The easiest way to work with notebooks is directly inside VS Code. Make sure you
 
 ### Working with Jupyter-lab
 
-**NOTE:** This section is completely **optional** for your information only. You can skip this.
+**NOTE:** This section is completely optional for your information only. You can skip this.
 
-Jupyter comes with its own browser-based interface which is often useful. This allows  To run Jupyter Lab:
+Jupyter comes with its own browser-based interface which is often useful:
 
 ```bash
 jupyter-lab
 ```
 
-When you run this command, the last line will give you a **URL** to open:
+When you run this command, the last line will give you a URL to open:
 
 ![Launching Jupyter in a web browser](img/jupyter-browser-launch.png)
 
@@ -284,11 +284,11 @@ Now, you can use the File menu to open any `ipynb` notebooks in your project. Fo
 
 ## Install Docker
 
-Docker is a containerization tool. It enables various software such as databases and big data applications to run on your machine (as containers) without going through complex installation processes. Docker is also one of the main technologies used behind the scenes to build Cloud services. We won't be using Docker in DE101, but you'll need it for bootcamp.
+Docker is a containerization tool. It enables various software, such as databases and big data applications, to run on your machine (as containers) without going through complex installation processes. Docker is also one of the main technologies used behind the scenes to build Cloud services. We won't be using Docker in DE101, but you'll need it for bootcamp.
 
 <br/>
 
-**NOTE:** **WSL** users should follow the Docker installation for Windows using **"WSL 2 backend"**. 
+**NOTE:** WSL users should follow the Docker installation for Windows using "WSL 2 backend". 
 
 <br/>
 
@@ -308,11 +308,11 @@ This command should execute without any issues.
 
 ## Install Git CLI
 
-Let's make sure we have `git` cli installed and properly working. Please follow the instructions below for your OS:
+Let's make sure we have `git` CLI installed and properly working. Please follow the instructions below for your OS:
 
 ## Windows WSL and Ubuntu
 
-**Windows WSL** must have the git cli installed and working on their Ubuntu WSL machine. Please follow these instructions there.
+**Windows WSL** must have the git CLI installed and working on their Ubuntu WSL machine. Please follow these instructions there.
 
 Open a command terminal and run the commands below:
 
@@ -325,7 +325,7 @@ git --version
 
 ## Mac OS
 
-The easiest is probably to install the Xcode Command Line Tools. On Mavericks (10.9) or above you can do this simply by trying to run git from the Terminal the very first time:
+The easiest is probably to install the Xcode Command Line Tools. On Mavericks (10.9) or above you can do this simply by trying to run git from the terminal the very first time:
 
 ```bash
 git --version
@@ -333,7 +333,7 @@ git --version
 
 If you don’t have it installed already, it will prompt you to install it.
 
-If you want a more up to date version, you can also install it via a binary installer. A macOS Git installer is maintained and available for download at the Git website, at [https://git-scm.com/download/mac](https://git-scm.com/download/mac).
+If you want a more up-to-date version, you can also install it via a binary installer. A macOS Git installer is maintained and available for download at the Git website, at [https://git-scm.com/download/mac](https://git-scm.com/download/mac).
 
 
 <br><br>
