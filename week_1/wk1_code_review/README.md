@@ -17,7 +17,7 @@ For the second part, you'll have a quiz on Data Stack Academy's ['Course Syllabu
 The project should be well-commented, without unused code.
 
 ### Instructions
-- Make a new public repository on your GitHub called 'DE 101 Code Review 1'
+- Make a new public repository on your GitHub called 'DE101-Code-Review-1'
 - The repository should include:
     - A `.gitignore` file with whatever you want to exclude from Git
     - A `README.md` with at least a brief description of the project, instructions for setup, and a license
@@ -47,5 +47,5 @@ In order for the code review to pass, it has to include:
 
 A passing quiz can only miss one question. Resubmissions are allowed.
 
-Email a link to your 'DE 101 Code Review 1' GitHub repository to alma@datastack.academy by 5pm PST Saturday. Give the email the subject line 'DE 101 Code Review 1'.
+Email a link to your 'DE101-Code-Review-1' GitHub repository to hello@datastack.academy by 5pm PST Saturday. Give the email the subject line 'DE101-Code-Review-1'.
 
