@@ -2,7 +2,7 @@
 Welcome to class! This first day will be a gentle intro to the Python programming language and the Linux command line. We've built in time for asking questions and getting oriented.
 
 ## Python
-Code is a set of instructions, and there are a lot of language you can use to write it. So, why Python?
+Code is a set of instructions, and there are a lot of languages you can use to write it. So, why Python?
 
 Python is:
 - Widely used in data engineering.
@@ -21,7 +21,7 @@ Colab lets you:
 
 The Python tutorial we use today is adapted from the [Data Stack Academy 5 Day Python Challenge](https://drive.google.com/drive/folders/1FxlXQNr1bgL67o5PcxNDTkRHqhiOLPRR?usp=share_link). In order to interact with the notebooks, you'll need a Google account.
 
-Log into a Google account, then [click here](https://colab.research.google.com/drive/1d-kGaUWYM7SfM38LOOBXvV6ETQH0BQ2n?usp=sharing) to open notebook 1, where you can find lessons on the basics of Python and notebooks. Then you can keep going in [notebook 2](https://colab.research.google.com/drive/1JyqPk1WabYuac9Himwo4bnF_e8ms4-fS?usp=sharing) to learn the more advanced concept of the dictionary data structure.
+Log into a Google account, then [click here to open notebook 1](https://colab.research.google.com/drive/1d-kGaUWYM7SfM38LOOBXvV6ETQH0BQ2n?usp=sharing), where you can find lessons on the basics of Python and notebooks. Then you can keep going in [notebook 2](https://colab.research.google.com/drive/1JyqPk1WabYuac9Himwo4bnF_e8ms4-fS?usp=sharing) to learn the more advanced concept of the dictionary data structure.
 
 Make sure you save time before the end of class to get to the lesson about the terminal below.
 
