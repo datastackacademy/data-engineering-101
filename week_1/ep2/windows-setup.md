@@ -10,6 +10,8 @@ Windows Subsystem for Linux (**WSL**) allows Windows users to run Ubuntu Linux n
 
 Follow Microsoft official documentation to [**install WSL 2**](https://docs.microsoft.com/en-us/windows/wsl/install).
 
+While you follow the Microsoft instructions keep these notes in mind:
+
 <br/>
 
 **NOTE:**
@@ -25,21 +27,45 @@ Follow Microsoft official documentation to [**install WSL 2**](https://docs.micr
 >- [WSL File System Error # 1](https://github.com/microsoft/WSL/issues/7435)
 >- [WSL File System Error # 2](https://github.com/microsoft/WSL/issues/5456)
 
+<br/>
+
+1. WSL installation is made simple now (as it was very difficult before) with running a single **Powershell** command:
+
+    `wsl --install`
+
+2. Make sure that you start Powershell in **Administrator** mode:
+
+    <img src="img/powershell_as_admin.png" width="800" />
+
+    <br/>
+
+3. In this class, we use **Ubuntu**. At the time of this article, this is the **default** linux distro (distribution) installed by WSL. Therefore you do **not** need to do anything else. Feel free to skip the next step below.
+
+    <br/>
+
+4. If you like to change the default intro (ie: Ubuntu 22.04), you can follow the [these steps](https://learn.microsoft.com/en-us/windows/wsl/install#change-the-default-linux-distribution-installed). Make sure that you do these steps from running the `ubuntu` app and **NOT** Powershell (as before)
+
+    <img src="img/run_ubuntu.png" width="600" />
+
+
+
 <br/><br/>
 
-## Install Ubuntu 20.04
+## Install Ubuntu 22.04
 
-Once you have WSL installed, you can install Ubuntu 20.04, which is our recommended Linux distribution. 
+Once you have WSL installed, you can install Ubuntu 22.04, which is our recommended Linux distribution. 
 
-Open the Microsoft Store App: **[Install Ubuntu from the Microsoft store](https://www.microsoft.com/en-us/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab)**
+Open the Microsoft Store App: **[Install Ubuntu from the Microsoft store](https://www.microsoft.com/store/productid/9PN20MSR04DW?ocid=pdpshare)**
 
-![Microsoft Store](img/wsl-ms-store.png)
+<img src="img/wsl-ms-store-ubuntu22.png" width="600" />
 
 <br/>
 
 Once you have Ubuntu installed on your WSL, you should update your Ubuntu install:
 
 1. Start an **Ubuntu** terminal from the **Start Menu** 
+
+    <img src="img/run_ubuntu.png" width="600" />
 
 2. You will be prompted to choose a **root** password. Make sure to **remember** this. You do not have a chance to reset this if you forget.
 
@@ -74,3 +100,35 @@ ls -l
 ```
 
 This will list the content of your C Drive.
+
+
+## Install Windows Terminal
+
+This step is optional; but by far the best command line interface on Windows is **Windows Terminal**. You can use this _instead_ of the default `ubuntu` terminal you used above. We highly recommend installing this app.
+
+1. Install Windows Terminal from Microsoft Store:
+
+    <img src="img/ms_store_windows_terminal.png" width="600" />
+
+    <br/>
+
+1. You'll use this app so much, that you should pin it to your taskbar 😉
+
+1. You can run it by typing `terminal` in your Start menu:
+
+    <img src="img/run_windows_terminal.png" width="600" />
+
+    <br/>
+    
+1. Be sure to drop down the settings tab:
+
+    <img src="img/windows_terminal_settings_tab.png" width="600" />
+
+1. And set **`Ubuntu`** as your default terminal:
+
+    <img src="img/windows_terminal_settings_default_ubuntu.png" width="600" />
+
+
+<br/><br/>
+Enjoy **commanding** 😎💂‍♀️💂‍♂️
+
