@@ -1,6 +1,6 @@
 # Data Engineering 101 Code Review 1
 
-Code reviews must be mailed to alma@datastack.academy by 5pm PST Saturday. 
+Code reviews must be mailed to hello@datastack.academy by 5pm PST Saturday. 
 
 Turning in this code review is how we'll count your attendance for today. Be sure to follow the instructions carefully. 
 
