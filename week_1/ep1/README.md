@@ -59,7 +59,7 @@ To move back up a directory, use `cd ..`:
 
 ![cd up a dir](./imgs/cd_up_a_dir.png)
 
-We'll be working with the terminal often, so play with this til your comfortable. `cd` (or `dir` for windows) and `ls` won't break anything. 
+We'll be working with the terminal often, so play with this til your comfortable. `cd` (or `dir` for Windows) and `ls` won't break anything. 
 
 It can help to look at your file system on your desktop, and compare it to navigating in the terminal.
 
