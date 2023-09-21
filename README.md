@@ -27,7 +27,7 @@ The Data Engineering 101 Pre-Enrollment course is a gentle introduction to:
 ## Schedule
 DE101 is a two-week course. It starts three weeks before the Data Engineering Bootcamp course begins, so you'll have a week break. 
 
-DE101 is taught live 8:30am-11:30am PST. Missing more than two hours of the course might disqualify you for enrolling in the bootcamp, though you can request an exception.
+DE101 is taught live 9am-noon PST, Monday-Thursday. Missing more than two hours of the course might disqualify you for enrolling in the bootcamp, though you can request an exception.
 
 Each class day has an episode. An episode is just a folder. It has all the instructions and exercises for that day.
 
