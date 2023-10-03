@@ -27,7 +27,7 @@ git init
 If you try to run a git command, like `git status`, and get the error message `fatal: not a git repository (or any of the parent directories): .git`, it's probably because you didn't `git init`.
 
 ### Forking and Cloning
-Later in this course, you'll see how to fork the remote Data Engineering Bootcamp repo, so you had your own remote copy of it. This allows you to make changes on your copy of a repository, without effecting the shared remote copy.
+Later in this course, you'll see how to fork the remote Data Engineering Bootcamp repo, so you have your own remote copy of it. This allows you to make changes on your copy of a repository, without effecting the shared remote copy.
 You can also create a local repo from a remote by cloning it. A forked repository is a completely independent copy, while a cloned one is sychronized with the remote.
 
 ### Pushing and Pulling
