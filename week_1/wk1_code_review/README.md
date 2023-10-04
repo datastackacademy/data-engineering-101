@@ -30,7 +30,7 @@ The project should be well-commented, without unused code.
 - Make at least three commits on the repository
 
 ## Part 2: Bootcamp Policies
-Please read the then fill out [this quiz:
+Please read Data Stack Academy's ['Course Syllabus and Policies'](https://datastack.academy/course-syllabus-and-policies/), then fill out [this quiz:
 https://forms.gle/foTAfVitjN3cHdEX9](https://forms.gle/foTAfVitjN3cHdEX9)
 
 

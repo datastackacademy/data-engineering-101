@@ -2,7 +2,7 @@
 
 Remember to save and commit your code often!
 
-On your `main` branch:
+On your `main` branch, in a `.py` file:
 1. Make a variable containing the name of a vegetable as a string. 
 1. Make another vegetable variable.
 1. Make a list called `taco` containing the two variables you just made.

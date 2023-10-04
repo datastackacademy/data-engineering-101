@@ -229,7 +229,7 @@ source ~/.bashrc
 Use brew to install python 3.7, pip, and virtualenv:
 
 ```bash
-brew install python3.7
+brew install python@3.7
 
 # install pip (python package manager)
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
