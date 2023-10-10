@@ -13,7 +13,7 @@ Today's code review will let you show off your understanding of Python basics: f
 - In a Python file (`.py`) or a notebook (`.ipynb`) called `main`:
     - Write a function called `plus_three` that takes an argument, adds three to it, and returns the sum. 
     - Call `plus_three` twice, with a different argument each time.
-    - Write a function called `weather_report`. It should take two arguments, `weather_1` and `weather_2` In the body of `weather_report`, assign the value `f"Today is {weather_1} and {weather_2}"` to a variable called `today`. Return `today`.
+    - Write a function called `weather_report`. It should take two arguments, `weather_1` and `weather_2`. In the body of `weather_report`, assign the value `f"Today is {weather_1} and {weather_2}"` to a variable called `today`. Return `today`.
     - Call `weather_report`.
     - Make a tuple called `top_ten` that contains the numbers 1 thru 10.
     - Write a `for` loop that multiples each number in `top_ten` by itself and prints the product.
