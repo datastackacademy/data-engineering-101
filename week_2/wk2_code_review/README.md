@@ -17,7 +17,7 @@ Today's code review will let you show off your understanding of Python basics: f
     - Call `weather_report`.
     - Make a tuple called `top_ten` that contains the numbers 1 thru 10.
     - Write a `for` loop that multiples each number in `top_ten` by itself and prints the product.
-    - Write an `if` statement that check whether the number 7 is in `top_ten`. If it is, print the string `"We have a 7"`. Otherwise, print `"No 7 here"`.
+    - Write an `if` statement that checks whether the number 7 is in `top_ten`. If it is, print the string `"We have a 7"`. Otherwise, print `"No 7 here"`.
 
 
 
